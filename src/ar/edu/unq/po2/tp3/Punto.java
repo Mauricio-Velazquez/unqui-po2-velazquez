@@ -31,6 +31,4 @@ public class Punto {
 		this.y = y;
 	}
 	
-	
-	
 }
