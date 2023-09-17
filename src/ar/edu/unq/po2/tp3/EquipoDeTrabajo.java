@@ -1,14 +1,15 @@
 package ar.edu.unq.po2.tp3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class EquipoDeTrabajo {
 	private String nombre;
-	private ArrayList<Persona> integrantes;
+	private List<Persona> integrantes;
 	
     public EquipoDeTrabajo(String nombre) {
     	this.nombre = nombre;
-    	integrantes = new ArrayList<>();
+    	integrantes = new ArrayList<Persona>();
     }
 
 	public String getNombre() {

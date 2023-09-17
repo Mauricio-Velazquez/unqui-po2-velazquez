@@ -1,12 +1,13 @@
 package ar.edu.unq.po2.tp3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MultiOperador {
-	private ArrayList<Integer> numeros;
+	private List<Integer> numeros;
 	
     public MultiOperador() {
-        numeros = new ArrayList<>();
+        numeros = new ArrayList<Integer>();
     }
 	
 	public void agregarNumero(int numero) {

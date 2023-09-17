@@ -1,12 +1,13 @@
 package ar.edu.unq.po2.tp3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Counter{
-	private ArrayList<Integer> numeros;
+	private List<Integer> numeros;
 	
     public Counter() {
-        numeros = new ArrayList<>();
+        numeros = new ArrayList<Integer>();
     }
 	
 	public void addNumber(int numero) {
